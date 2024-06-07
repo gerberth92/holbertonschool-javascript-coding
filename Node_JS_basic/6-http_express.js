@@ -9,3 +9,5 @@ const app = express().get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Server corriendo en el puerto: ${port}`);
 });
+
+module.exports = app;
